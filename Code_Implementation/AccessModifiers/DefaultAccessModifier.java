@@ -1,5 +1,8 @@
 package AccessModifiers;
 
+//When no access modifier is specified, java is treated as a default modifier. 
+//The scope of the default modifier is limited to within the package.
+
 class DefaultAccessModifier {
 	String fname = "Puja";
 	String lname = "Kadam";

@@ -1,6 +1,8 @@
 package collections;
 import java.util.*; 
 
+//If we want to represent a group of elements or data in key and value pairs then we use map interface. 
+//Duplicate keys are not allowed but duplicate values are allowed
 
 public class HashMapExample{  
 	

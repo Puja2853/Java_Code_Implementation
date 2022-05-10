@@ -1,5 +1,7 @@
 package arrayType;
 
+//Three-dimensional array is the collection of two-dimensional arrays in Java
+
 public class ThreeDArray {
 
 	public static void main(String[] args) {

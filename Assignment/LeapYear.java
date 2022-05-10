@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class LeapYear {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		int year;
 		System.out.println("Enter an Year : ");

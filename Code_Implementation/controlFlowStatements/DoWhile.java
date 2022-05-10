@@ -10,7 +10,7 @@ public class DoWhile {
 			System.out.println(arr[i]);
 			i++;
 
-		}while(i<7);
+		}while(i<arr.length);
 
 	}
 }

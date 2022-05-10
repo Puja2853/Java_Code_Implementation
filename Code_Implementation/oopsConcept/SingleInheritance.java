@@ -18,5 +18,5 @@ public class SingleInheritance extends Animal{
 		obj.does();
 	}
 }
-
+ 
  

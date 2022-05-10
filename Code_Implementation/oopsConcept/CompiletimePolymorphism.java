@@ -2,23 +2,21 @@
 
 public class CompiletimePolymorphism {
 
-		public static String add(String a, String b)
+		public static int div(int a, int b)
 		{
-			return a.concat(b);
+			return a*b;
 		}
 
-		public static String add(String a, String b, String c)
+		public static int div(int a, int b, int c)
 		{
-			return a.concat(b).concat(c);
+			return a*b*c;
 		}
 
-		// Driver code
-		public static void main(String args[])
-		{ 
+		public static void main(String args[]){ 
 			
-			System.out.println(add("Puja", " Kadam"));
+			System.out.println(div(34,4));
 
-			System.out.println(add( "Puja"," Balaji", " Kadam"));
+			System.out.println(div(66,3,9));
 		}
 	}
 

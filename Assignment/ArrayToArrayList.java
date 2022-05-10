@@ -10,7 +10,7 @@ public class ArrayToArrayList {
 
 		Integer[] array = {23, 93, 56, 92, 39};
 		
-		List list = Arrays.asList(array);
+		List<Integer> list = Arrays.asList(array);
 		System.out.println(list);
 
 	}

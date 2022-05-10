@@ -1,5 +1,7 @@
 package AccessModifiers;
 
+// public modifier is used to access everywhere and even outside the package
+
 public class PublicAccessModifier {
 	
 	// public variable

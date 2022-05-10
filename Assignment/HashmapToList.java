@@ -15,8 +15,8 @@ public class HashmapToList {
         map.put(4, "Laxmi");
         map.put(1, "Puja");
 
-        List<Integer> keyList = new ArrayList(map.keySet());
-        List<String> valueList = new ArrayList(map.values());
+        List<Integer> keyList = new ArrayList<Integer>(map.keySet());
+        List<String> valueList = new ArrayList<String>(map.values());
 
         System.out.println("Key List: " + keyList);
         System.out.println("Value List: " + valueList);

@@ -21,10 +21,10 @@ public class ArrayListToArray {
 
 		// Convert ArrayList into the string array		
 		String[] arr = city.toArray(new String[city.size()]); 
-		System.out.print("Array: ");
+		System.out.println("Array: ");
 		
 		for(String item:arr) {
-			System.out.print(item+", ");
+			System.out.println(item);
 		}
 		
 	        

@@ -1,10 +1,13 @@
 package AccessModifiers;
 
-	class Data {
-	 private String empName;
-	 private String empEmailId;
-	 private int empId;
-	 
+//The methods or data members declared as private are accessible only within the class in which they are declared. 
+//Any other class of the same package will not be able to access these members.
+
+class Data {
+	private String empName;
+	private String empEmailId;
+	private int empId;
+
 	public String getEmpName() {
 		return empName;
 	}
@@ -24,21 +27,22 @@ package AccessModifiers;
 		this.empId = empId;
 	}
 
-	    
-	}
-	public class PrivateAccessModifier {
-		
+
+}
+public class PrivateAccessModifier {
+
 	public static void main(String[] args) {
 		Data d = new Data();
 
-        // access the private variable using the getter and setter
-        d.setEmpName("Puja Kadam");
-        d.setEmpEmailId("puja.balaji-kadam@capgemini.com");
-        d.setempId(9876);
-        
-        System.out.println(d.getEmpName());
-        System.out.println(d.getEmpEmailId());
-        System.out.println(d.getempId());
+		// access the private variable using the getter and setter
+
+		d.setEmpName("Puja Kadam");
+		d.setEmpEmailId("puja.balaji-kadam@capgemini.com");
+		d.setempId(9876);
+
+		System.out.println(d.getEmpName());
+		System.out.println(d.getEmpEmailId());
+		System.out.println(d.getempId());
 	}
 
 }

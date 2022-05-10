@@ -3,6 +3,8 @@ package collections;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+//Insertion order is preserved. Duplicate allowed.
+
 public class List {
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })

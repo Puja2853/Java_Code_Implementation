@@ -5,7 +5,7 @@ class Shape {
 	  int length;
 	  int breadth;
 	  // constructor to initialize values
-	  Shape(int length, int breadth) {
+	  Shape(int length, int breadth) { 
 	    this.length = length;
 	    this.breadth = breadth;
 	  }

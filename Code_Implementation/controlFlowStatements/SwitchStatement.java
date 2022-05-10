@@ -3,7 +3,7 @@ package controlFlowStatements;
 public class SwitchStatement {
 
 	public static void main(String[] args) {
-		String Company = "Capgemini";
+		String Company = "hgfd";
 		switch (Company){
 		    case "Capgemini":
 		        System.out.println("Company name is Capgemini");

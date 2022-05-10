@@ -8,7 +8,7 @@ public class HashTableExample {
 		
 		//Hashtable t = new Hashtable(); //default capacity is 11, load factor is 0.75
 		//Hashtable t = new(initial capacity); //create Hashtable object with some capacity
-		//Hashtable t = new Hashtable(initial capacity, fill ratio/load factor);
+		//Hashtable t = new Hashtable(initial capacity, fill ratio/load factor); //The load factor is a measure of how full the hash table is allowed to get before its capacity is automatically increased.
 		
 		Hashtable <Integer, String> t = new Hashtable <Integer, String>();
 		t.put(101, "Puja");
